@@ -1,0 +1,6 @@
+project Tableau_A_Trou is
+
+   for Main use ("exercice_indice.adb", "exercice_valeur.adb");
+
+end Tableau_A_Trou;
+

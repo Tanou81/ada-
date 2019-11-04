@@ -1,0 +1,119 @@
+V "GNAT Lib v2016"
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tableau_int%b		tableau_int.adb		e2be6588 NE OO PK IL
+Z ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+U tableau_int%s		tableau_int.ads		b81c11cc EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-imguns.ads		20160516092928 9ff43cf7 system.img_uns%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20160516092932 20ba1217 system.random_numbers%b
+D s-ransee.ads		20160516092932 01a57b33 system.random_seed%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valint.ads		20160516092930 48a52a3f system.val_int%s
+D s-valuns.ads		20160516092932 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D tableau_int.ads	20181202201106 07df3053 tableau_int%s
+D tableau_int.adb	20181202201818 e56155db tableau_int%b
+X 1 ada.ads
+16K9*Ada 19e8 35|1r6 2r6 2r31 3r6 3r23 36|71r34
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 35|2w10 2r35
+X 5 a-numeri.ads
+16K13*Numerics 32e17 35|1r10 36|71r38
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 35|1w19 36|71r47
+50R9 Generator<22|63R9> 36|74r11[71]
+52V13 Random{36|70I12} 36|80s15[71]
+55U14 Reset<22|100p14> 36|76s7[71]
+X 7 a-nudira.adb
+53V16 Random[22|83]{36|70I12} 23|392b13[36|71]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 35|3w10 3r27
+166U14*New_Line 36|31s7 47s7
+242U14*Put 36|21s7 26s13 30s7 40s7 46s7
+263U14*Put_Line 36|20s7
+X 11 a-tiinio.ads
+66U14*Put 36|24s10[3|18] 43s10[3|18]
+X 13 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 22 s-rannum.ads
+75V13*Random{13|74M9} 23|221i21
+76V13*Random{13|77M9} 23|221i21
+X 35 tableau_int.ads
+4K9*Tableau_int 25l5 25e16 36|3b14 86l5 86t16
+6i4*TAILLE_MAX{integer} 7r30
+7A9*Tab_Int(integer)<integer> 10r30 13r31 16r42 19r36 23r46 36|8r30 17r31
+. 37r42 53r37 68r46
+10U14*lire 10<20 10<40 36|8b14 12l8 12t12
+10a20 tab{7A9} 36|8b20
+10i40 n{integer} 36|8b39
+13U14*ecrire 13>22 13>41 36|17b14 32l8 32t14
+13a22 tab{7A9} 36|17b22 24r14
+13i41 n{integer} 36|17b40 23r18 25r15
+16U14*ecrireSansVirgule 16>33 16>52 36|37b14 48l8 48t25
+16a33 tab{7A9} 36|37b33 43r14
+16i52 n{integer} 36|37b51 42r18
+19U14*initialiser 19<26 19>45 36|53b14 61l8 61t19
+19a26 tab{7A9} 36|53b27 58m10
+19i45 n{integer} 36|53b46 57r18
+23U14*initialiserAleatoire 23<36 23>55 36|68b14 84l8 84t28
+23a36 tab{7A9} 36|68b36 81m10
+23i55 n{integer} 36|68b55 79r18
+X 36 tableau_int.adb
+18i7 i{integer} 22m7 23r13 24r18 25r13 28m10 28r13
+38i7 i{integer} 41m7 42r13 43r18 44m10 44r13
+54i6 i{integer} 56m7 57r13 58r15 59m10 59r13
+69i7 i{integer} 78m7 79r13 81r15 82m10 82r13
+70I12 Numero<short_short_integer> 71r64 73r11 81r36
+71K15 La_Roulette[6|44] 72r11
+73i7 A{70I12} 80m10 81r50
+74r7 G{6|50R9[71]} 76r14 80r23
+

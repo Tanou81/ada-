@@ -1,0 +1,80 @@
+V "GNAT Lib v2016"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U tableau%b		tableau.adb		f58bf854 NE OO PK
+
+U tableau%s		tableau.ads		cd9281a8 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D tableau.ads		20181202200826 841a2993 tableau%s
+D tableau.adb		20181202200830 7191d1c7 tableau%b
+X 1 ada.ads
+16K9*Ada 19e8 25|1r6 2r6 2r23
+X 4 a-numeri.ads
+16K13*Numerics 32e17 25|1r10
+X 5 a-nudira.ads
+44k22*Discrete_Random 75e33 25|1w19
+X 8 a-textio.ads
+49K13*Text_IO 471e16 25|2w10 2r27
+166U14*New_Line 26|31s7 47s7
+208U14*Put 26|24s10 43s10
+242U14*Put 26|21s7 26s13 30s7 40s7 46s7
+263U14*Put_Line 26|20s7
+X 25 tableau.ads
+3K9*Tableau 25l5 25e12 26|3b14 79l5 79t12
+5i4*TAILLE_MAX{integer} 6r31
+6A9*Tab_Char(character)<integer> 9r30 12r31 15r42 18r36 21r56 26|8r30 17r31
+. 37r42 53r37 67r56
+9U14*lire 9<20 9<41 26|8b14 12l8 12t12
+9a20 tab{6A9} 26|8b20
+9i41 n{integer} 26|8b40
+12U14*ecrire 12>22 12>42 26|17b14 32l8 32t14
+12a22 tab{6A9} 26|17b22 24r14
+12i42 n{integer} 26|17b41 23r18 25r15
+15U14*ecrireSansVirgule 15>33 15>53 26|37b14 48l8 48t25
+15a33 tab{6A9} 26|37b33 43r14
+15i53 n{integer} 26|37b52 42r18
+18U14*initialiser 18<26 18>46 26|53b14 61l8 61t19
+18a26 tab{6A9} 26|53b27 58m10
+18i46 n{integer} 26|53b47 57r18
+21U14*initialiserAvecValeurParDefaut 21<46 21>66 21>82 26|67b14 75l8 75t38
+21a46 tab{6A9} 26|67b46 72m10
+21i66 n{integer} 26|67b66 71r18
+21e82 valeurParDefaut{character} 26|67b82 72r22
+X 26 tableau.adb
+18i7 i{integer} 22m7 23r13 24r18 25r13 28m10 28r13
+38i7 i{integer} 41m7 42r13 43r18 44m10 44r13
+54i6 i{integer} 56m7 57r13 58r15 59m10 59r13
+68i6 i{integer} 70m7 71r13 72r15 73m10 73r13
+

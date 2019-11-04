@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>H:\M1102\AP\tableau_a_trou\tableau_a_trou\tableau_a_trou.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>H:\M1102\AP\tableau_a_trou\tableau_a_trou\exercice_indice.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >H:\T#195;#169;l#195;#169;chargements\tableau_a_trou\tableau_a_trou\tableau_a_trou.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >H:\T#195;#131;#194;#169;l#195;#131;#194;#169;chargements\tableau_a_trou\tableau_a_trou\exercice_indice.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >H:\T#195;#169;l#195;#169;chargements\tableau_a_trou\tableau_a_trou\exercice_indice.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
