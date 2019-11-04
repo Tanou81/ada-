@@ -20,19 +20,19 @@ procedure ManipulerUneDuree is
 
 
 
-	procedure lireDuree(d : out Duree ) is 
+	procedure lireDuree(t : out Duree ) is 
 	
 	begin 
 		Put_Line ("combien h?");
-		get(d.heure);
+		get(t.heure);
 		Put_Line ("combien min?");
-		get(d.minutes);
+		get(t.minutes);
 		Put_Line ("combien s?");
-		get(d.secondes);
+		get(t.secondes);
 	
 	end LireDuree;
 	
-	function CalculerDureeEnSecondes (heure: in Integer ;minutes: in  Integer ;secondes: in  Integer ) return Integer is
+	function CalculerDureeEnSecondes (t.heure: in Integer ; t.minutes: in  Integer ; t.secondes: in  Integer ) return Integer is
 	
 		totalSecondes : integer;
 	begin
@@ -54,7 +54,7 @@ begin
 		
 		
 	LireDuree(t);
-	nbTotalSecondes := CalculerDureeEnSecondes(heure,minutes,secondes);
+	nbTotalSecondes := CalculerDureeEnSecondes(t.heure,t.minutes,t.secondes);
 	Put_line ("total seconde est  ?");
 	put(nbTotalSecondes);
 	
